@@ -9,6 +9,7 @@ const Input = ({ name, label, type = 'text' }) => {
     <label>
       {label}
       <input
+        checked={value}
         onChange={onChange}
         value={value}
         onBlur={onBlur}
